@@ -1,7 +1,7 @@
 # Lizzmotors_assignment
 Assignment from Lakshay to Design an End-to-End AI Voice Assistance Pipeline
 
-Recording (5).wav is the audio file that is transcribed by the whisper model before it. The first pre-processing is done in which the sample rate is converted from 48KHz to 16KHz and the audio channel from stereo to mono leading to the creation of a new file named -.
+Recording (5).wav is the audio file that is transcribed by the whisper model before it. The first pre-processing is done in which the sample rate is converted from 48KHz to 16KHz and the audio channel from stereo to mono leading to the creation of a new file named - pre-processed_audio.wav.
 
 Then from the file, the pseeched part is extracted from the full audio with which the non-speech frame like Background noise, silence is removed leading to a less computation-intensive process sometimes the background noise can also be interpreted as the speech removing this also improves the accuracy.
 
